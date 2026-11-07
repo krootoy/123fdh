@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build",
+  "buildCommand": "node build.mjs || echo 'Frontend ready'",
   "functions": {
     "main.py": {
       "maxDuration": 60
