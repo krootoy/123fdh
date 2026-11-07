@@ -1,0 +1,18 @@
+{
+  "name": "flashcards-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "python3 -m http.server 4173 -d dist"
+  },
+  "dependencies": {
+    "animejs": "^4.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
